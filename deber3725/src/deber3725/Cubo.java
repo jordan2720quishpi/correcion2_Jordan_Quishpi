@@ -11,4 +11,13 @@ package deber3725;
  */
 public class Cubo {
     
+    int ancho;
+    int alto;
+    int profundo;
+    public void volumen(){
+        int resultado = this.ancho * this.alto*this.profundo;
+        System.out.println("El resultado es  "+ resultado);
+    }
+    
+    
 }
