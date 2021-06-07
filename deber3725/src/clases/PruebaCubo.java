@@ -13,7 +13,8 @@ public class PruebaCubo {
         ob1.alto=2;
         ob1.profundo=6;
         ob1.volumen();
-        
+        Cubo ob2=new Cubo(3,2,6);
+        ob2.volumen();
     }
     
     
