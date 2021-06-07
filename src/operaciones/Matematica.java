@@ -4,6 +4,11 @@ public class Matematica {
 
     int a;
     int b;
+    public Matematica(int a,int b){
+        this.a=a;
+        this.b=b;
+    }
+    
 
     public void sumar() {
         int resultado = this.a + this.b;
