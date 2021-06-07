@@ -13,5 +13,6 @@ public class PruebaCubo {
         ob1.ancho = 3;
         ob1.profundo = 6;
         ob1.volumen();
+        // crar otro
     }
 }
