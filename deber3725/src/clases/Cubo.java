@@ -11,7 +11,7 @@ public class Cubo {
     int alto;
     int profundo;
     public Cubo(){
-        System.out.println("llamando al metodo ");
+        System.out.println("llamando al metodo");
     }
     public Cubo(int ancho,int alto,int profundo){
         this.ancho=ancho;
