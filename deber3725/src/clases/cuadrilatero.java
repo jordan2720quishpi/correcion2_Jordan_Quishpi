@@ -8,7 +8,8 @@ public class cuadrilatero {
     //Atributos
     int lado1;
     int lado2;
-
+    
+    //Constructorres
     public cuadrilatero(int lado1,int lado2){
         this.lado1=lado1;
         this.lado2=lado2;
@@ -16,6 +17,7 @@ public class cuadrilatero {
     public cuadrilatero(int lado1 ){
         this.lado1=this.lado2=lado1;
     }
+    //Metodos
     public void area(){
         int resultado=this.lado1*this.lado1;
         System.out.println("El Area del caudrilatero es ="+resultado);

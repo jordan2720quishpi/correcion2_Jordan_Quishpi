@@ -10,6 +10,7 @@ public class Cubo {
     int ancho;
     int alto;
     int profundo;
+    //Constructores
     public Cubo(){
         System.out.println("llamando al metodo");
     }
@@ -18,10 +19,9 @@ public class Cubo {
         this.alto=alto;
         this.profundo=profundo;
     }
+    //Metodo
     public void volumen(){
         int resultado =this.ancho*this.alto*this.profundo;
         System.out.println("EL Volumen del Cubo es = "+resultado);
     }
-        
-    
 }
