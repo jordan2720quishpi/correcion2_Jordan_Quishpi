@@ -5,7 +5,7 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 public class TestPlano {
     public static void main(String[] args) {
-        //Creacion del obejeto 1
+        //Creacion del obejeto 
         Plano obj1=null;
         var total = 0.0;
         var total1 = 0.0;
