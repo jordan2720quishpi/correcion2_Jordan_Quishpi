@@ -20,7 +20,7 @@ public class PruebaPlano {
                 System.out.println("Dato no valido");
             }
         } while (n < 1);
-        //Creacion del objeto
+        //Creacion del objeto Plano
         Plano[] plano = new Plano[n];
         movimientos(plano);
     }
