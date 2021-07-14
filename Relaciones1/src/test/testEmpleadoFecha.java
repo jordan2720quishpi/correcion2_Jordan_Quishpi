@@ -45,7 +45,7 @@ public class testEmpleadoFecha {
         diai = entrada.nextInt();
         fIngreso = new Fecha(anioi, mesi, diai);
         empleado1 = new Empleado(nombre, fNacimiento, fIngreso);
-        System.out.println("------DATOS INGRESADOS-------");
+        System.out.println("---------DATOS INGRESADOS-------");
         System.out.println("Nombre: " + empleado1.getNombre());
         System.out.println(empleado1.calcularEdad(anio1, mes1, dia1));
         System.out.println(empleado1.calcularTiempo(anio1, mes1, dia1));

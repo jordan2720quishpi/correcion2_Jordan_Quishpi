@@ -1,8 +1,5 @@
 
 package dominio;
-
-
-
 public class Empleado {
 
     private String nombre;
