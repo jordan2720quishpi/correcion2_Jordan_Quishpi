@@ -13,4 +13,12 @@ public class Vejez extends Jubilado{
        return super.verDatos();
     }
 
+    @Override
+    public double calcularPension() {
+        float pi=(float) this.getSalirio_base();
+        float bono=(float) (this.getSalirio_base()*15/100);
+        return pi+bono;
+    }
+    
+
 }

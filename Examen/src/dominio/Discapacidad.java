@@ -19,15 +19,14 @@ public class Discapacidad  extends Jubilado{
     public void setDis(double dis) {
         this.dis = dis;
     }
-     @Override
+    @Override
     public String verDatos(){
-       float pi = (float) this.getSalirio_base();
-       float bono = (float) (this.getSalirio_base()* this.dis / 100);
-       return super.verDatos()+" "+"Porcentaje de discapaidad: "+(pi+bono);
+       return super.verDatos();
     }
-
-    
-    
-    
-
+    @Override
+    public double calcularPension(){
+        double pi = this.getPensionInicial();
+        double bono = this.getSalirio_base()* this.dis / 100;
+        return pi + bono;
+    }
 }
